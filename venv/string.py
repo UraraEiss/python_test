@@ -5,3 +5,7 @@
 # print(a [2:10])
 
 # Escape character
+list =  ['cao','you','gai']
+with open('testfile','w') as f:
+    for name in list :
+        f.write(name + '\n')
