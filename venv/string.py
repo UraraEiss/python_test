@@ -85,9 +85,32 @@ dict ['php'] =3
 dict ['javascript'] = 7
 print(max(dict.values()))
 '''
-
+'''
 set1 = set()
 set2 = {'python','java','php','c'}
 
-set2.add('c++')
-print('java' in set2)
+set1.add('java')
+'''
+'''
+lst1 = [1, 2, 3, 5, 6, 3, 2]
+lst2 = [2, 5, 7, 9]
+
+set1 = set(lst1)
+set2 = set(lst2)
+print(set1.intersection(set2))
+print(set1.difference((set2)))
+print(set1.union(set2))
+'''
+
+lst1 = [10, 3, 2, 6, 7, 5]
+lst2 = [3, 2, 5, 6, 10, 7]
+
+combine_set = set()
+
+for item1 in lst1:
+    for item2 in lst2:
+        if item1 + item2 == 12:
+            combine_set.add((min(item1, item2), max(item1, item2)))
+
+
+print(combine_set)
