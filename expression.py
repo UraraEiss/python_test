@@ -48,3 +48,28 @@ for i in lst :
         max_v = i
 print(max_v)
 '''
+
+'''
+lst = [3, 6, 1, 8, 10, 3, 20, 13]
+max_lst = lst[0]
+mix_lst = lst[0]
+index = 0
+while len(lst) :
+    if lst[index] > max_lst:
+        max_lst=lst[index]
+    if lst[index] < mix_lst:
+        mix_lst=lst[index]
+    index += 1
+    print(max_lst,mix_lst)
+'''
+
+word = input("请输入字符：")
+changdu = len(str(word))
+haed,end=0,-1
+for i in range(changdu//2) :
+    if word[haed]==word[end-i]:
+        print("你输入的是回文")
+        break
+    else:
+        print("你输入的不是回文")
+        break
