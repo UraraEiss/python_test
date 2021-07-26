@@ -34,3 +34,17 @@ else:
     print("日期不合法")
 '''
 
+'''
+list = [1,5,6,2,4]
+for i in range(len(list)) :
+    print(list[-(i+1)])
+'''
+
+'''
+lst = [4, 6, 1, 7, 2, 9, 3]
+max_v=lst[0]  #设定第一位为最大值
+for i in lst :
+    if  i  > max_v:
+        max_v = i
+print(max_v)
+'''
