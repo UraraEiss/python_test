@@ -101,7 +101,7 @@ print(set1.intersection(set2))
 print(set1.difference((set2)))
 print(set1.union(set2))
 '''
-
+'''
 lst1 = [10, 3, 2, 6, 7, 5]
 lst2 = [3, 2, 5, 6, 10, 7]
 
@@ -114,3 +114,4 @@ for item1 in lst1:
 
 
 print(combine_set)
+'''
