@@ -35,8 +35,10 @@ def select_file(file_path,suffix):
     file = []
     for file_name in file_list:
         if file_name.endswith(suffix):
-            file.append(file_path)
+            file.append(file_name)
     return file
-
-py_file=select_file("/usr/local/",".py")
+# input("输入路径和文件后缀：",input_path,input_suffix)
+input_path=str(input("输入路径："))
+input_suffix=str(input("输入文件后缀："))
+py_file=select_file(input_path,input_suffix)
 print(py_file)
