@@ -31,6 +31,6 @@ def get_py_program_count(py_path):
         program_count += get_program_line_count(file_name)
     return program_count
 
-py_path='D:\python\\test1\\venv\Scripts\\'
+py_path='D:\python\\test1\\'
 
 print(get_py_program_count(py_path))

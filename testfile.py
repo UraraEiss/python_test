@@ -49,6 +49,6 @@ while c > 0:
         print("登陆成功")
     break
 '''
-
+print(__file__)
 
 
