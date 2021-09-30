@@ -29,4 +29,3 @@ def same_ip():
 
 same_ip()
 
-
